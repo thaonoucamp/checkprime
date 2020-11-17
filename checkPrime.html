@@ -8,12 +8,14 @@
 <script>
     function checkPrime() {
         let n = +prompt("Enter a number");
-        if(n == 0,n == 1) {
+        if(n == 0 && n == 1) {
             alert("is not prime");
-        } if(n % n == 0 && n % 1 == 0) {
+        }
+        if(n % n == 0 && n % 1 == 0) {
             alert(n + "is Prime");
-        } else
+        } else {
             alert(n + "is not Prime");
+            }
     }
 </script>
 </body>
